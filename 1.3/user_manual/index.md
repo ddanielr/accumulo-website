@@ -3,7 +3,7 @@ title: "User Manual: index"
 redirect_from: /user_manual_1.3-incubating/
 ---
 
-** Next:** [Contents][2]   ** [Contents][2]**   
+**Next:** [Contents][2]   **[Contents][2]**   
   
 
 
@@ -14,8 +14,6 @@ Version 1.3
 
 
 * * *
-
-<a id="CHILD_LINKS"></a>
 
 * [Contents][2]
 * [Introduction][6]

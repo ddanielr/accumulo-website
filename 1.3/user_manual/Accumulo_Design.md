@@ -56,7 +56,7 @@ The Accumulo Master is responsible for detecting and responding to TabletServer 
 
 Accumulo includes a client library that is linked to every application. The client library contains logic for finding servers managing a particular tablet, and communicating with TabletServers to write and retrieve key-value pairs. 
 
-## <a id="Data_Management"></a> Data Management
+## Data Management
 
 Accumulo stores data in tables, which are partitioned into tablets. Tablets are partitioned on row boundaries so that all of the columns and values for a particular row are found together within the same tablet. The Master assigns Tablets to one TabletServer at a time. This enables row-level transactions to take place without using distributed locking or some other complicated synchronization mechanism. As clients insert and query data, and as machines are added and removed from the cluster, the Master migrates tablets to ensure they remain available and that the ingest and query load is balanced across the cluster. 
 
@@ -94,7 +94,7 @@ http://master-address:50095/monitor.
 [9]: Accumulo_Design.html#Data_Model
 [10]: Accumulo_Design.html#Architecture
 [11]: Accumulo_Design.html#Components
-[12]: Accumulo_Design.html#Data_Management
+[12]: Accumulo_Design.html#data-management
 [13]: Accumulo_Design.html#Tablet_Service
 [14]: Accumulo_Design.html#Compactions
 [15]: Accumulo_Design.html#Fault-Tolerance
